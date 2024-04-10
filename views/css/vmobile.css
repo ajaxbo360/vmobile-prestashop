@@ -1,0 +1,42 @@
+.ex-mobile-widget {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  padding: 15px;
+  background-color: #fcba03;
+}
+.search-form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 40px; /* Adjust the gap between elements */
+}
+
+.select-input {
+  padding: 8px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #c9b271;
+  color: #fff;
+  width: 160px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Optional: Hover and focus styles */
+
+.select-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.search-button:focus {
+  outline: none;
+}
